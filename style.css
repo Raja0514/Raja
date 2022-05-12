@@ -4,6 +4,26 @@ body::before{
     height: 75px;
 }
 img{
-    width: 50%;
+    width: 75%;
     border-radius: 5px;
+}
+.fa-html5{
+    color: red;
+    
+}
+.fa-js{
+    color:darkorange;
+    
+}
+.fa-react{
+    color: aqua;
+}
+.fa-bootstrap{
+    color: slateblue;
+}
+.fa-css3{
+    color:blue;
+}
+h3{
+    
 }
