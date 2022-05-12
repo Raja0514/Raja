@@ -66,11 +66,15 @@
               <strong class="text-danger">Full stack Developer</strong>
             </h4>
             <p>
-              <button>linked in</button>
-              <button>Github</button>
+              <a href="" class="btn btn-primary mt-4 mx-2">
+                Linked ln
+              </a>
+              <a href="" class="btn btn-primary mt-4 mx-2">
+                Github
+              </a>
             </p>
           </div>
-          <div class="col-md-5 col-sm-12">
+          <div class="col-md-5 col-sm-12 mb-3">
             <img src="image/full_stack_banner.webp" alt="image" />
           </div>
         </div>
@@ -82,26 +86,23 @@
     <section id="about-section">
       <div class="container-fluid">
         <div class="row pb-1 justify-content-center">
-          <h3>About Me</h3>
-          <div class="col-md-6 col-sm-12  ">
+          <div class="col-md-6 col-sm-12 ">
+            <h3 style="text-align: center">About Me</h3>
             <p class="lead">
               Accomplished sales supervisor with extensive experience leading
               teams by example, and with feedback and coaching, seeks to expand
               career growth in a position as a sales manager. Contributed to
-              new-hire training by helping the training department develop new
-              materials that increased employee satisfaction and productivity by
-              30%.
+              
             </p>
             <a
               href="https://www.youtube.com/"
               target="blank"
               class="btn btn-primary mb-4"
+              
               >Resume</a
             >
           </div>
-          <div class="col-md-6">
-
-          </div>
+          <div class="col-md-6"></div>
         </div>
       </div>
     </section>
@@ -109,21 +110,19 @@
     <!-- Skill Section -->
     <section id="skills-section">
       <div class="container-fluid">
-        <div class="row pb-1 justify-content-center">
-        
+        <div class="row pb-1 text-center justify-content-center mb-3">
+          <h3>Skills</h3>
+
           <div class="col-md-6 col-sm-12 mb-2 pt-2 pb-2 justify-content-center">
-            <h3>FrontEnd Skills</h3>
             <i class="fa-brands fa-html5 fa-4x"></i>
             <i class="fa-brands fa-css3 fa-4x"></i>
             <i class="fa-brands fa-bootstrap fa-4x"></i>
             <i class="fa-brands fa-js fa-4x"></i>
             <i class="fa-brands fa-react fa-4x"></i>
           </div>
-          <div class="col-md-6 col-sm-12 mb-2 pt-2 pb-2 ">
-            <h3>BackEnd Skills</h3>
-            <i class="fa-brands fa-node-js fa-4x"></i>
+          <div class="col-md-6 col-sm-12 mb-2 pt-2 pb-2">
+            <i class="fa-brands fa-node-js fa-4x  "></i>
             <i class="fas fa-database fa-4x"></i>
-            
           </div>
         </div>
       </div>
@@ -131,9 +130,11 @@
     <!-- project -->
     <section id="project-section">
       <div class="container-fluid">
-        <div class="row pb-2  text-center justify-content-center mb-2">
-          <h3 >Projects</h3>
-          <div class="col-lg-3 col-md-3 col-sm-12 justify-content-center mb-2">
+        <div class="row text-center justify-content-center mb-2">
+          <h3>Projects</h3>
+          <div
+            class="col-lg-3 col-md-3 pt-2 col-sm-12 justify-content-center mb-2"
+          >
             <div class="card" style="width: 16rem">
               <img src="image/Fullstack.webp" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -145,7 +146,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+          <div class="col-lg-3 col-md-3 pt-2 col-sm-12 justify-content-center mb-2">
             <div class="card" style="width: 16rem">
               <img src="image/Fullstack.webp" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -157,7 +158,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+          <div class="col-lg-3 col-md-3 pt-2 col-sm-12 justify-content-center mb-2">
             <div class="card" style="width: 16rem">
               <img src="image/Fullstack.webp" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -169,7 +170,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 mb-2">
+          <div class="col-lg-3 col-md-3 pt-2 col-sm-12 justify-content-center mb-2">
             <div class="card" style="width: 16rem">
               <img src="image/Fullstack.webp" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -190,8 +191,10 @@
     <section id="contact-section">
       <div class="container-fluid">
         <div class="row justify-content-center">
-          <h3 style="text-align: center;">Contact me</h3>
-          <div class="col-md-6 col-sm-6">
+
+          <h3 style="text-align: center">Contact me</h3>
+
+          <div class="col-md-6 col-sm-6 " style="border: 2px solid black;">
             <section id="form-section">
               <form>
                 <div class="mb-3">
@@ -204,9 +207,7 @@
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                   />
-                  <div id="emailHelp" class="form-text">
-                    We'll never share your email with anyone else.
-                  </div>
+                  
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label"
@@ -218,21 +219,45 @@
                     id="exampleInputPassword1"
                   />
                 </div>
-                <div class="mb-3 form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="exampleCheck1"
-                  />
-                  <label class="form-check-label" for="exampleCheck1"
-                    >Check me out</label
+                
+                  
+              </form>
+            </section>
+          </div>
+
+          <div class="col-md-6 col-sm-6" style="border:2px solid black ;">
+
+            <section id="form-section">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
                   >
+                  <input
+                    type="email"
+                    class="form-control form-control-sm form-control-lg"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  
                 </div>
-                <button type="submit" class="btn btn-primary mb-4">
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control form-control-sm form-control-lg"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                                <button type="submit" class="btn btn-primary mb-4">
                   Submit
                 </button>
               </form>
             </section>
+          </div>
+
           </div>
         </div>
       </div>
