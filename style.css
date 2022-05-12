@@ -3,3 +3,7 @@ body::before{
     content: '';
     height: 75px;
 }
+img{
+    width: 50%;
+    border-radius: 5px;
+}
