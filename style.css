@@ -1,11 +1,12 @@
-body::before{
-    display: block;
-    content: '';
-    height: 75px;
+body{
+
+    background-color: antiquewhite;
 }
+
 img{
     width: 75%;
     border-radius: 5px;
+    
 }
 .fa-html5{
     color: red;
@@ -45,4 +46,11 @@ img{
 }
 .fa-github{
     color: #171515;
+}
+
+h3{
+    color: brown;
+}
+h1{
+    color: darkgoldenrod;
 }
