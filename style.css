@@ -1,71 +1,72 @@
-body{
-
-    background-color: antiquewhite;
-    font-family: 'Aleo', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Urbanist', sans-serif;
+body {
+  background-color: antiquewhite;
+  font-family: "Aleo", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Urbanist", sans-serif;
 }
 
-img{
-    width: 75%;
-    border-radius: 5px;
-    
+img {
+  width: 75%;
+  border-radius: 5px;
 }
-.fa-html5{
-    color: red;
-    
+.fa-html5 {
+  color: red;
 }
-.fa-js{
-    color:darkorange;
-    
+.fa-js {
+  color: darkorange;
 }
-.fa-react{
-    color: aqua;
+.fa-react {
+  color: aqua;
 }
-.fa-bootstrap{
-    color: slateblue;
+.fa-bootstrap {
+  color: slateblue;
 }
-.fa-css3{
-    color:blue;
+.fa-css3 {
+  color: blue;
 }
-.fa-node-js{
-    color:#3c873a;
-
+.fa-node-js {
+  color: #3c873a;
 }
-.fa-database{
-    color: darkgoldenrod;
+.fa-database {
+  color: darkgoldenrod;
 }
 
-.fa-location-dot{
-
-    color: blue;
-
+.fa-location-dot {
+  color: blue;
 }
-.fa-phone{
-    color:purple;
+.fa-phone {
+  color: purple;
 }
-.fa-envelope{
-    color:red;
+.fa-envelope {
+  color: red;
 }
-.fa-github{
-    color: #171515;
+.fa-github {
+  color: #171515;
 }
 
-h3{
-    color: brown;
+h3 {
+  color: brown;
 }
-h1{
-    color:blue;
+h1 {
+  color: blue;
 }
-.navbar{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,93,1) 35%, rgba(0,212,255,1) 100%);
-
+.navbar {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 93, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
-.footer{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,93,1) 35%, rgba(0,212,255,1) 100%);
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 93, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
-h6{
-    color: white;
-
+h6 {
+  color: white;
 }
