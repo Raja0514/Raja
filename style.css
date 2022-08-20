@@ -7,8 +7,9 @@ body {
 }
 
 img {
-  width: 75%;
+  width: 100%;
   border-radius: 5px;
+  height: 100%;
 }
 .fa-html5 {
   color: red;
@@ -43,6 +44,7 @@ img {
 }
 .fa-github {
   color: #171515;
+  
 }
 
 h3 {
