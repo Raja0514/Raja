@@ -1,5 +1,6 @@
 body{
 font-family: 'Ubuntu', sans-serif;
+background-color:antiquewhite;
 
 
 }
@@ -48,7 +49,7 @@ h3 {
   color: brown;
 }
 h1 {
-  color: blue;
+  color:firebrick;
 }
 .navbar {
   background: linear-gradient(
