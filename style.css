@@ -29,21 +29,18 @@ img {
 }
 
 .fa-location-dot {
-  color: blue;
+  color:crimson;
 }
 .fa-phone {
-  color: purple;
+  color:chocolate;
 }
 .fa-envelope {
-  color:indianred;
+  color:darkgoldenrod;
 }
 .fa-github {
   color: #171515;
 }
 
-h3 {
-  
-}
 h1 {
   color:red
   
