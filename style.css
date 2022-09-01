@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family:'Times New Roman';
 }
 img {
   width: 100%;
@@ -35,7 +35,7 @@ img {
   color: purple;
 }
 .fa-envelope {
-  color: red;
+  color:indianred;
 }
 .fa-github {
   color: #171515;
@@ -45,27 +45,47 @@ h3 {
   color: brown;
 }
 h1 {
-  color: firebrick;
+  color:red
+  
 }
 .navbar {
   background: linear-gradient(
     90deg,
-    rgba(9, 122, 155, 5) 35%,
-    rgba(9, 121, 155, 5) 35%,
-    rgba(9, 121, 155, 5) 100%
+    rgba(9, 122, 9, 10) 35%,
+    rgba(9, 121, 9, 15) 35%,
+    rgba(9, 121, 105, 25) 100%
   );
 }
 .footer {
   background: linear-gradient(
     90deg,
-    rgba(9, 122, 155, 5) 35%,
-    rgba(9, 121, 155, 5) 35%,
-    rgba(9, 121, 155, 5) 100%
+    rgba(9, 122, 9, 10) 35%,
+    rgba(9, 121, 9, 15) 35%,
+    rgba(9, 121, 105, 25) 100%
   );
-}
-h6 {
-  color: white;
 }
 .fas {
   color: cornflowerblue;
+}
+a{
+  color: crimson;
+  text-decoration: none;
+}
+.navbar ul li a:hover{
+
+  color: white;
+  background-color:red;
+  border-radius: 5px;
+  
+}
+
+.navbar ul li a:active{
+  color:coral;
+  background-color: burlywood;
+
+}
+.navbar ul li a{
+  padding: auto;
+  font-size:20px;
+  font-weight:normal;
 }
