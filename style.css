@@ -1,5 +1,5 @@
 body {
-  font-family:'Times New Roman';
+  font-family: "Times New Roman";
 }
 img {
   width: 100%;
@@ -29,21 +29,20 @@ img {
 }
 
 .fa-location-dot {
-  color:crimson;
+  color: crimson;
 }
 .fa-phone {
-  color:chocolate;
+  color: chocolate;
 }
 .fa-envelope {
-  color:darkgoldenrod;
+  color: darkgoldenrod;
 }
 .fa-github {
   color: #171515;
 }
 
 h1 {
-  color:red
-  
+  color: red;
 }
 .navbar {
   background: linear-gradient(
@@ -64,25 +63,22 @@ h1 {
 .fas {
   color: cornflowerblue;
 }
-a{
+a {
   color: crimson;
   text-decoration: none;
 }
-.navbar ul li a:hover{
-
+.navbar ul li a:hover {
   color: white;
-  background-color:red;
+  background-color: red;
   border-radius: 5px;
-  
 }
 
-.navbar ul li a:active{
-  color:coral;
+.navbar ul li a:active {
+  color: coral;
   background-color: burlywood;
-
 }
-.navbar ul li a{
+.navbar ul li a {
   padding: auto;
-  font-size:20px;
-  font-weight:normal;
+  font-size: 20px;
+  font-weight: normal;
 }
